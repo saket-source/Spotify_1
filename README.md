@@ -1,7 +1,7 @@
 # Spotify SQL Project and Query Optimization 
 Project Category: Advanced
 
-![Spotify Logo](Downloads)
+![spotify_logo](https://github.com/user-attachments/assets/2e12247e-d0b8-49f9-a64e-248c48d57ea9)
 
 ## Overview
 This project involves analyzing a Spotify dataset with various attributes about tracks, albums, and artists using **SQL**. It covers an end-to-end process of normalizing a denormalized dataset, performing SQL queries of varying complexity (easy, medium, and advanced), and optimizing query performance. The primary goals of the project are to practice advanced SQL skills and generate valuable insights from the dataset.
