@@ -4,7 +4,7 @@ Project Category: Advanced
 ![spotify_logo](https://github.com/user-attachments/assets/2e12247e-d0b8-49f9-a64e-248c48d57ea9)
 
 ## Overview
-This project involves analyzing a Spotify dataset with various attributes about tracks, albums, and artists using **SQL**. It covers an end-to-end process of normalizing a denormalized dataset, performing SQL queries of varying complexity (easy, medium, and advanced), and optimizing query performance. The primary goals of the project are to practice advanced SQL skills and generate valuable insights from the dataset.
+This project involves analyzing a Spotify dataset with various attributes about tracks, albums, and artists using **SQL**. It covers an end-to-end process of normalizing a denormalized dataset, performing SQL queries of varying complexity, and optimizing query performance. The primary goals of the project are to practice SQL skills and generate valuable insights from the dataset.
 
 ```sql
 -- create table
@@ -143,15 +143,16 @@ FROM cte
 ORDER BY 2 DESC
 ```
    
-5. Find tracks where the energy-to-liveness ratio is greater than 1.2.
-6. Calculate the cumulative sum of likes for tracks ordered by the number of views, using window functions.
+9. Find tracks where the energy-to-liveness ratio is greater than 1.2.
 
-
-Here’s an updated section for your **Spotify Advanced SQL Project and Query Optimization** README, focusing on the query optimization task you performed. You can include the specific screenshots and graphs as described.
-
----
-
----
+```
+select 
+	track,
+	artist,
+	(energy/liveness) as energy_to_liveness_ratio
+from spotify
+where (energy/liveness) > 1.2
+```
 
 ## Conclusion
 
